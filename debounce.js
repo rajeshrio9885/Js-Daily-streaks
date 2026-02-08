@@ -1,3 +1,8 @@
+/*Debounce is a technique to delay function execution until the user stops triggering 
+the event for a specified time. It is used to optimize performance and reduce unnecessary API calls. 
+It uses closures and setTimeout to reset the timer on each call.
+ */
+
 const debounceFn = (fn, delay) => {
   let timer;
 
